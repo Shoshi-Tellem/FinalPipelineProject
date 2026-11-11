@@ -5,7 +5,7 @@ pipeline {
     // ---------- User parameters ----------
     parameters {
         string(name: 'REPO_URL',
-               defaultValue: 'https://github.com/YOUR_GITHUB_USER/FinalPipelineProject.git',
+               defaultValue: 'https://github.com/Shoshi-Tellem/FinalPipelineProject.git',
                description: 'Git repository URL of the tests project')
         string(name: 'BRANCH_NAME',
                defaultValue: 'main',
